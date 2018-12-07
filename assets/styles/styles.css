@@ -1,0 +1,87 @@
+/* reset */
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: 0px;
+}
+/* general rules */
+body {
+	background-color: rgb(50,50,50);
+}
+/* setting up the header */
+#mainHeader {
+	background-color: rgb(255,140,0);
+	min-height: 10vh;
+}
+#mainHeader div {
+	height: 100%;
+	width: 50%;
+	float: left;
+}
+#mainHeader > div > h2 {
+	line-height: 10vh;
+	margin-left: 15px;
+}
+#mainHeader > div > h2 > a {
+  	color: black;
+  	text-decoration: none;
+}
+#mainHeader > div:last-child > ul {
+  	list-style: none;
+  	text-align: left;
+}
+#mainHeader > div:last-child > ul > li {
+	line-height: 10vh;
+	margin-right: 15px;
+	display: inline-block;
+	float: right;
+}
+#mainHeader > div:last-child > ul > li > a {
+	color: black;
+  	text-decoration: none;
+}
+/* setting up the main */
+#wrapper {
+	background-color: rgb(255,255,255);
+	width: 80%;
+	margin: 0 auto;
+	min-height: 74vh;
+	padding: 25px;
+}
+#wrapper > h1 {
+	text-align: center;
+	padding-bottom: 10px;
+}
+#wrapper > img{
+	width: 60%;
+  	height: 30vh;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	object-fit: cover;
+  	box-shadow: 5px 5px 5px black;
+}
+#wrapper  > ul {
+  	list-style: none;
+  	text-align: center;
+}
+#wrapper > ul > li {
+	line-height: 10vh;
+	margin-right: 15px;
+	display: inline-block;
+	float: center;
+}
+#wrapper > ul > li > a {
+	color: black;
+  	text-decoration: none;
+}
+/* setting up the footer */
+#mainFooter {
+	background-color: rgb(255,140,0);
+	min-height: 10vh;
+}
+#mainFooter p {
+	line-height: 10vh;
+	text-align: center;
+}
